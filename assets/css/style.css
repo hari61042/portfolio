@@ -11377,10 +11377,13 @@ pre .code {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 180px;
+  -webkit-justify-content: space-between; 
+  /* -webkit-justify-content: space-between; */
+      /* -ms-flex-pack: justify;
+          justify-content: space-evenly; */ 
+          /* Remove above two comments if you want to add more elements */
+          /* justify-content: space-between; */
+  max-width: 80px;
 }
 
 .social-icons .social-link {
